@@ -34,14 +34,14 @@ const DarkMode = () => {
     }, [isDark])
 
   return (
-    <div className="fixed flex flex-col right-0 top-24 opacity-30 hover:opacity-100  text-2xl">
-    <button onClick={handleIsDark} className="bg-slate-400/30 hover:bg-white/50 backdrop-blur dark:bg-slate-950/30 dark:hover:dark:bg-slate-950/50 p-1 sm:p-2 rounded-md flex justify-center items-center">{(isDark === "light") ? <i className="fa-regular fa-lightbulb"></i> : <i className="fa-regular fa-lightbulb"></i> }</button>
-    {/**
-     *  //COMO EN ESTE PROYECTO NO SE USARA ESTE BOTON, LO COMENTO
-      <button onClick={handleResetLS} className="bg-slate-400/30 hover:bg-white/50 backdrop-blur dark:bg-slate-950/30 dark:hover:dark:bg-slate-950/50 p-1 sm:p-3 rounded-md flex justify-center items-center ">OS</button>
-     */}
-</div>
-  )
+    
+    <button onClick={handleIsDark} className="rounded-ee-md hover:bg-slate-500 sm:rounded-none sm:bg-none hover:sm:bg-transparent">{(isDark === "light") ? <i className="fa-regular fa-lightbulb"></i> : <i className="fa-regular fa-lightbulb"></i> }</button>
+    
+    )
 }
 
 export default DarkMode
+{/**
+ *  //COMO EN ESTE PROYECTO NO SE USARA ESTE BOTON, LO COMENTO
+  <button onClick={handleResetLS} className="bg-slate-400/30 hover:bg-white/50 backdrop-blur dark:bg-slate-950/30 dark:hover:dark:bg-slate-950/50 p-1 sm:p-3 rounded-md flex justify-center items-center ">OS</button>
+*/}
