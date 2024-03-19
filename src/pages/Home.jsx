@@ -1,29 +1,24 @@
 import React from 'react'
-import Header from '../components/Header'
+import NavBar from '../components/NavBar'
+import Presentation from '../components/Presentation'
+import Footer from '../components/Footer'
+import Skills from '../components/Skills'
+import Proyects from '../components/Proyects'
+import Contact from '../components/Contact'
+
 
 const Home = () => {
   return (
-    <section className='min-h-screen bg-slate-400 overflow-hidden'>
-      <Header/>
-      <section>
-        <h2>Presentacion</h2>
+    <section className='min-h-screen bg-slate-100 dark:text-white dark:bg-black overflow-hidden transition-colors ease-linear flex justify-center'>
+      <NavBar/>
+      <section className='overflow-hidden '>
+
+      <Presentation/>
+      <Skills/>
+      <Proyects/>
+      <Contact/>
+      <Footer/>
       </section>
-      <section>
-        <h2>Skills</h2>
-      </section>
-      <section>
-        <h2>
-          Proyects
-        </h2>
-      </section>
-      <section>
-        <h2>
-          Contact
-        </h2>
-      </section>
-      <footer>
-        <h2>Footer</h2>
-      </footer>
     </section>
   )
 }
