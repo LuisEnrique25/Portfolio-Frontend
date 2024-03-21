@@ -66,7 +66,7 @@ const Contact = () => {
             <button type='submit'  className='p-2 sm:px-4 shadow-sm rounded-md backdrop-blur-sm hover:bg-sky-600/10 hover:backdrop-blur-md shadow-sky-400 hover:shadow-sky-400 hover:shadow-md '>Send</button>
           </div>
           
-          <input type="hidden" name="_next" value="http://localhost:5173"></input>
+          <input type="hidden" name="_next" value="https://luis-dev-web.netlify.app"></input>
            
            <input type="hidden" name="_captcha" value="false"/>
            <input type="hidden" name="_template" value="table" />
