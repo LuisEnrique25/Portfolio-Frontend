@@ -6,7 +6,6 @@ const ProyectCard = ({proyect}) => {
     const [icons, setIcons] = useState([])
     useEffect(() => {
         setIcons(proyect.tags)
-        console.log(icons);
     },[])
   return (
     <article className='p-2 flex flex-col justify-center items-center lg:flex-row lg:gap-7 max-w-lg lg:max-w-full shadow-md m-auto'>
