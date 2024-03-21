@@ -11,11 +11,11 @@ const About = () => {
   }, [])
 
   return (
-    <section id='about' className='bg-[#C0D9E8] text-black dark:bg-[#024265] dark:text-white transition-colors ease-linear cursor-default'>
+    <section id='about' className='bg-[#C0D9E8] text-black dark:bg-[#024265] dark:text-white transition-colors ease-linear cursor-default relative'>
       
-      <section className='flex flex-col items-center gap-3 py-2'>
+      <section className='flex flex-col items-center gap-3 py-2 '>
 
-          <h2 className='sm:text-2xl text-xl font-semibold'>About Me</h2>
+          <h2 className='sm:text-2xl text-xl font-semibold pt-[40px] sm:pt-[52px]'>About Me</h2>
           {/**contenedor de cajas */}
           <section className='grid  items-center'>
 

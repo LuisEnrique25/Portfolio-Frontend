@@ -8,12 +8,14 @@ export default {
   theme: {
     extend: {
       animation:{
-        'spin-slow': 'spin 8s linear infinite'
+        'spin-slow': 'spin 8s linear infinite',
+        'wiggle' : 'wiggle 0.5s linear infinite'
         
       },
       keyframes:{
-        swapAnimation:{
-          
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-9deg)' },
+          '50%': { transform: 'rotate(9deg)' },
         }
       }
     },

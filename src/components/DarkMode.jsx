@@ -35,7 +35,7 @@ const DarkMode = () => {
 
   return (
     
-    <button onClick={handleIsDark} className="rounded-ee-md hover:bg-slate-500 sm:rounded-none sm:bg-none hover:sm:bg-transparent">{(isDark === "light") ? <i className="fa-regular fa-lightbulb"></i> : <i className="fa-regular fa-lightbulb"></i> }</button>
+    <button onClick={handleIsDark} className=" sm:rounded-none  ">{(isDark === "light") ? <i className='bx bxs-sun text-orange-500 hover:text-orange-800 animate-spin-slow'></i> :<i className='bx bxs-moon  text-blue-800 hover:text-sky-300' ></i>  }</button>
     
     )
 }

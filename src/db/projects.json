@@ -1,11 +1,11 @@
 [
     {
         "name":"Weather App", 
-        "img" : "/images/projects/weather.webp", 
+        "img" : "/imgs/projects/weather.webp", 
         "description": "The app has a user-friendly interface for inputting a city name and retrieving corresponding weather data. It utilizes the Weather API to access real-time information.", 
         "link": "https://weather-app-wizz.netlify.app/",
         "github": "https://github.com/LuisEnrique25/WeatherApp",
-        "tags": ["react"]
+        "tags": ["fa-brands fa-square-js", "fa-brands fa-react", "bx bxl-tailwind-css", "fa-brands fa-html5", "fa-brands fa-css3-alt"]
     },
     {
         "name":"Usuarios", 
@@ -13,7 +13,7 @@
         "description": "The app enables efficient user registration, deletion, and editing while seamlessly integrating with an API, enhancing user management with flexibility and scalability.", 
         "link": "https://users-form-wizz.netlify.app/",
         "github": "https://github.com/LuisEnrique25/form",
-        "tags": ["react"]
+        "tags": ["fa-brands fa-square-js", "fa-brands fa-react", "bx bxl-tailwind-css", "fa-brands fa-html5", "fa-brands fa-css3-alt"]
     },
     {
         "name":"Wiki Spartans", 
@@ -21,7 +21,7 @@
         "description": "The app showcases a button that, when clicked or refreshed, reveals a randomly generated Spartan, adding an element of surprise and excitement to the user experience.", 
         "link": "https://spartans-characters-wiiz.netlify.app/",
         "github": "https://github.com/LuisEnrique25/spartans",
-        "tags": ["html5"]
+        "tags": ["fa-brands fa-square-js", "fa-brands fa-react", "fa-brands fa-html5", "fa-brands fa-css3-alt"]
     },
     {
         "name":"Rick&Morty App", 
@@ -29,7 +29,7 @@
         "description": "Users can explore details about various locations, either by randomly discovering them or by searching for specific ones, adding to the immersive experience of the show.", 
         "link": "https://rick-and-morty-wizz.netlify.app/",
         "github": "https://github.com/LuisEnrique25/rick-and-morty",
-        "tags": ["react"]
+        "tags": ["fa-brands fa-square-js", "fa-brands fa-react", "bx bxl-tailwind-css", "fa-brands fa-html5", "fa-brands fa-css3-alt"]
     },
     {
         "name":"Pokedex App", 
@@ -37,6 +37,6 @@
         "description": "With its login authentication, filtering, and search options, the app provides users with an interactive and personalized experience to immerse themselves in the captivating world of Pokémon.", 
         "link": "https://pokedex-app-wizz.netlify.app/",
         "github": "https://github.com/LuisEnrique25/pokeApp",
-        "tags": ["react"]
+        "tags": ["fa-brands fa-square-js", "fa-brands fa-react", "bx bxl-tailwind-css", "fa-brands fa-html5", "fa-brands fa-css3-alt"]
     }
 ]
