@@ -6,7 +6,7 @@ import Login from './pages/Login'
 function App() {
 
   return (
-    <section className='min-h-screen '>
+    <section className="min-h-screen font-['Volkhov']" >
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/login' element={<Login/>} />

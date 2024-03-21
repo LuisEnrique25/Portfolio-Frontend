@@ -5,17 +5,20 @@ import Footer from '../components/Footer'
 import Skills from '../components/Skills'
 import Proyects from '../components/Proyects'
 import Contact from '../components/Contact'
+import About from '../components/About'
 
 
 const Home = () => {
   return (
-    <section className='min-h-screen bg-slate-100 dark:text-white dark:bg-black overflow-hidden transition-colors ease-linear flex justify-center'>
+    <section className='min-h-screen bg-white dark:text-white dark:bg-[#011A28] overflow-hidden transition-colors ease-linear flex justify-center'>
       <NavBar/>
-      <section className='overflow-hidden '>
+      <section className='overflow-hidden  '>
 
       <Presentation/>
+      <About/>
       <Skills/>
       <Proyects/>
+      
       <Contact/>
       <Footer/>
       </section>

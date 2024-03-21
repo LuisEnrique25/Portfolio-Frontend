@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       animation:{
-        'swap': "swapAnimation 1s linear alternate infinite "
+        'spin-slow': 'spin 8s linear infinite'
         
       },
       keyframes:{

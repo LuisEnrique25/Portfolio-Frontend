@@ -1,0 +1,62 @@
+[
+    {
+        "name": "HTML5",
+        "description": "some description",
+        "icon": "fa-brands fa-html5"
+        
+    },
+    {
+        "name": "CSS3",
+        "description": "some description",
+        "icon": "fa-brands fa-css3-alt"
+        
+    },
+    {
+        "name": "JavaScript",
+        "description": "some description",
+        "icon": "fa-brands fa-square-js"
+        
+    },
+    {
+        "name": "React",
+        "description": "some description",
+        "icon": "fa-brands fa-react"
+        
+    },
+    {
+        "name": "Tailwind",
+        "description": "some description",
+        "icon": "bx bxl-tailwind-css"
+        
+    },
+    {
+        "name": "NodeJs",
+        "description": "some description",
+        "icon": "fa-brands fa-node-js"
+        
+    },
+    {
+        "name": "PSQL",
+        "description": "some description",
+        "icon": "fa-solid fa-database"
+        
+    },
+    {
+        "name": "Postgres",
+        "description": "some description",
+        "icon": "fa-solid fa-server"
+        
+    },
+    {
+        "name": "Git",
+        "description": "some description",
+        "icon": "fa-brands fa-git-alt"
+        
+    },
+    {
+        "name": "GitHub",
+        "description": "some description",
+        "icon": "fa-brands fa-github"
+        
+    }
+]
