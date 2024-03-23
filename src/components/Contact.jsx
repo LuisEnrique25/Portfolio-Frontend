@@ -45,7 +45,7 @@ const Contact = () => {
           {/**EMAIL */ }
           <div className='grid gap-1'>
             <label htmlFor="email" className='p-1 text-sky-800 dark:text-sky-300'>E-Mail</label>
-            <input id='email' name='email' type="email" placeholder='hello@example.co' className='p-2 rounded-md overflow-hidden outline-none bg-[#C8DEEB] dark:bg-sky-900' {...register("email",
+            <input id='email' name='email' type="email" placeholder='hello@example.com' className='p-2 rounded-md overflow-hidden outline-none bg-[#C8DEEB] dark:bg-sky-900' {...register("email",
             {required: "This field is required",
             pattern:{
               value : /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
