@@ -31,7 +31,7 @@ const Contact = () => {
         <form ref={form} action="https://formsubmit.co/luisrg2225@gmail.com" method="POST"  className='p-3 max-w-xl m-auto'>
           {/**NAME */ }
           <div className='grid gap-1'>
-            <label htmlFor="name" className='p-1 text-sky-800 dark:text-sky-300' >Your Name</label>
+            <label htmlFor="name" className='p-1 text-sky-800 dark:text-sky-300' >Name</label>
             <input id='name' name='name' placeholder='Type your name...' type="text" className='p-2 rounded-md overflow-hidden outline-none bg-[#C8DEEB] dark:dark:bg-sky-900' {...register("name",
             {required: "This field is required",
             maxLength:{
@@ -44,7 +44,7 @@ const Contact = () => {
 
           {/**EMAIL */ }
           <div className='grid gap-1'>
-            <label htmlFor="email" className='p-1 text-sky-800 dark:text-sky-300'>Email</label>
+            <label htmlFor="email" className='p-1 text-sky-800 dark:text-sky-300'>E-Mail</label>
             <input id='email' name='email' type="email" placeholder='hello@example.co' className='p-2 rounded-md overflow-hidden outline-none bg-[#C8DEEB] dark:bg-sky-900' {...register("email",
             {required: "This field is required",
             pattern:{
