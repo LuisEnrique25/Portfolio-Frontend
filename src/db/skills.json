@@ -18,6 +18,12 @@
         
     },
     {
+        "name": "Java",
+        "description": "some description",
+        "icon": "fa-brands fa-java"
+        
+    },
+    {
         "name": "React",
         "description": "some description",
         "icon": "fa-brands fa-react"

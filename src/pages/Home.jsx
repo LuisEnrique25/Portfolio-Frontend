@@ -21,7 +21,10 @@ const Home = () => {
       <Proyects/>
       
       <Contact/>
+      {/** 
+       * 
       <Footer/>
+      */}
       <WhatsPop/>
       </section>
     </section>
